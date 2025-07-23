@@ -1,0 +1,38 @@
+* {
+    background-color: lightslategray;
+}
+
+.dropdown-container {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-container > * {
+    flex: 1;
+}
+
+.dropdown {
+    border: 2px solid black;
+    margin: 1px;
+    text-align: center;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.top-button {
+    background-color: aliceblue;
+}
+.top-button ~ * {
+    background-color: antiquewhite;
+}
