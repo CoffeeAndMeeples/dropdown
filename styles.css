@@ -6,6 +6,7 @@
     width: 160px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .dropdown-container > * {
@@ -17,7 +18,10 @@
     margin: 1px;
     text-align: center;
 }
-
+.top-menu {
+    display: flex;
+    align-items: flex-start;
+}
 .dropdown:hover {
     cursor: pointer;
 }
